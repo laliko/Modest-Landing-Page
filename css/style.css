@@ -1,18 +1,17 @@
-header {
+.main {
+    background-color: aqua;
+}
+.header {
     width: 1900px;
-    height: 90px;
+    height: 81px;
     background-color: black;
-   
 }
-a {
-    text-decoration: none;
-}
-.logo {
-    margin-left: 379px;
+.banner {
+    width: 1890px;
+    height: 655px;
+    background-color: yellow;
+
 }
 
-.navigation_ul {
-    margin-left: 500px;
-}
-
-
+1890
+655
