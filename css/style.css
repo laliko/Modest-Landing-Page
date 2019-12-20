@@ -1,39 +1,53 @@
+* .border {
+    border: solid 2px white;
+    padding: 18px 30px 12px 23px;
+    margin: 8px;
+    border-radius: 7px;
+}
 .main {
-    width: auto;
+    width: 100%;
     background-color: white;
 }
 
 .header {
     width: 1900px;
     height: 81px;
-    background-color: black;
-    padding-top: 25px;
+    background-color: #1D2126;
 }
-
 .logo {
     width: 100px;
     height: 20px;
-    margin-left: 380px;
-display: block;
+    padding-top: 31px;
+    padding-left: 380px;
+    display: block;
 }
 
-ul {
+.menu {
     float: right;
     list-style-type: none;
     padding-right: 400px;
-
+    text-transform: uppercase;
 }
-
 li {
     display: inline-block;
     
 }
 
-li a {
+.menu li a {
     color: white;
     text-align: center;
-    padding: 16px;
+    margin: 16px;
     text-decoration: none;
+}
+.menu li a:hover {
+    border: solid 2px grey;
+    padding: 6px 17px 6px 10px;
+    border-radius: 5px;
+}
+.menu li a:active {
+    border: solid 2px #23B7A4;
+    border-radius: 5px;
+    padding: 6px 15px 6px 10px;
 }
 nav {
     width: 1900px;
@@ -50,14 +64,8 @@ h1 {
     font-size: 36px;
     color: #FFFFFF;
 }
-.span {
-    color: #000000;
-    font-size: 12px;
-    padding-left: 660px;
-    margin-top: 15px;
-}
 .lorem {
-    padding-top: 7px;
+    padding-top: 20px;
     padding-left: 380px;
     font-size: 16px;
     color: #CCD0D7;
@@ -66,8 +74,19 @@ h1 {
     font-size: 16px;
     color: #CCD0D7;
 }
-.banner {
-  width:1900px;
-  height: 660px;
-  background-image: url("img/banner.png");
+.navbuttons ul {
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-left: 380px;
+    color: white;
+}
+.navbuttons ul :hover {
+    background-color: #23B7A4;
+    border-style: inherit;
+    cursor: pointer;
+}
+.pagination{
+    padding-top: 203px;
+    padding-left: 1462px;
+    margin:10px;
 }
