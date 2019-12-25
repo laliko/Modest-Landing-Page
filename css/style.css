@@ -132,12 +132,6 @@ nav {
         text-transform: uppercase;
         padding-top: 86px;
     }
-    .team_frames {
-        width: 100px;
-        height: 100px;
-        background-color: green;
-        margin-top: 65px;
-    }
     .article-wrapper {
         width: 1200px;
         height: 376px;
@@ -169,6 +163,14 @@ nav {
         position: relative;
         display: block;
         overflow: hidden;
+    }
+   .hover_icons {
+        display: flex;
+        padding-left: 90px;
+        margin: 2px;      
+    }
+    .hover_icons img {
+        margin: 2px;
     }
     .hvrbox .hvrbox-layer_middle {
         opacity: 0;
@@ -228,8 +230,6 @@ nav {
         height: 260px;
     }
     .flex_img:hover {
-        width: 360px;
-        height: 200px;
         background-color: #292F36;
     }
     .article_button {
@@ -246,23 +246,56 @@ nav {
         padding: 16px 33px 16px 23px;
         font-size: 11px;
     }
-    .article4 h1 {
+    .section_whatwedo {
+        height: 898px;
+        width: 1900px;
+        
+    }
+    .section_whatwedo h1 {
+        padding-left: 405px;
         padding-top: 85px;
-        padding-left: 380px;
         text-transform: uppercase;
+        font-size: 36px;
     }
     .article_icon {
         padding-top: 90px;
-    padding-left: 380px;
+        padding-left: 50px;
     }
    .icon{
        width: 50px;
        height: 50px;
    }
-  h2 {
+    h2 {
        padding-top: 35px;
+       padding-left: 50px;
+       font-weight: bold;
+       text-transform: uppercase;
+  }
+   .help_info {
+       display: flex;
+       flex-direction: column;
+       flex-flow: wrap;
+       text-align: center;
        padding-left: 380px;
    }
-   .setup p {
-       padding-left: 380px;
+   .setup, .design, .display, .support {
+       border: 1px inherit red;
+       width: 350px;
+       height: 310px;
    }
+  .help_info p {
+       padding-top: 28px;
+      line-height: 1.5;
+      padding-right: 20px;
+  }
+  .footer {
+      background-color: #3A454D;
+      width: 1900px;
+      height: 94px;
+  }
+  .footer p {
+      padding-left: 380px;
+      padding-top: 40px;
+      color: white;
+      text-transform: capitalize;
+  }
