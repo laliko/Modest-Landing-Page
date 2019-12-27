@@ -4,6 +4,8 @@
     margin: 8px;
     border-radius: 7px;
 }
+
+
 .main {
    
     background-color: white;
@@ -298,3 +300,81 @@ nav {
       color: white;
       text-transform: capitalize;
   }
+  #features {
+    background-color: #3A454D;
+    width: 1900px;
+    height: 730px;
+  }
+ 
+  .title_line {
+    border: 1px solid #4D6060;
+    margin: 83px 0 0 378px;
+    width: 10px;
+    height: 35px;
+    background-color: #4D6060;
+}
+  .features_title h1 {
+      font-size: 34px;
+      text-transform: uppercase;
+      margin-left: 16px;
+      padding-top: 90px;
+      color: white;
+  }
+  .feat_img {
+      width: 360px;
+      height: 240px;
+      margin: 28px;
+}
+.map-block {
+    width: 1900px;
+    height: 862px;
+    position: relative;
+}
+.map-block h1 {
+    padding-top: 71px;
+    padding-left: 406px;
+    font-size: 32px;
+    color: #292F36;
+    text-transform: uppercase;
+}
+
+.map {
+    padding-top: 62px;
+    position: absolute;
+    
+}
+.form {
+    padding-top: 280px;
+    padding-right: 380px;
+}
+
+.form-block {
+    text-transform: uppercase;
+    font-size: 24px;
+    float: right;
+    width: 580px;
+    height: 380px;
+    background-color: #FFFFFF; 
+    position: relative;
+  
+}
+label, input {
+    margin-left: 30px;
+    display: block;
+}
+input {
+    width: 240px;
+    height: 40px;
+    background-color: #EAEEF1;
+}
+.form_row {
+    margin: 15px;
+    display: inline;
+}
+button {
+    margin: 30px;
+    width: 146px;
+    height: 43px;
+    color: white;
+    background-color: #23B7A4;
+}
